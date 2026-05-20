@@ -15,7 +15,6 @@ namespace DataTypes
             Console.WriteLine(false);
             Console.WriteLine(sizeof(bool));
             Console.WriteLine(true.GetType());
-            Console.WriteLine(delimiter);
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("char");
