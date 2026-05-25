@@ -1,6 +1,6 @@
 ﻿//#define FACTORIAL
 #define POWER
-//#define 
+#define FIBONACHI
 using System;
 using System.Collections.Generic;
 using System.Linq;
