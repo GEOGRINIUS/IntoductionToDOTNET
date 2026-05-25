@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introductio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{5D5A9441-8B4F-415D-97E8-30C0EBB4764D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTasks", "SimpleTasks\SimpleTasks.csproj", "{F3214AE0-8143-4F55-B73C-1040B859854D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{20D1CA19-8D11-4AF7-B12B-FE779FA5DDFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5D5A9441-8B4F-415D-97E8-30C0EBB4764D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5A9441-8B4F-415D-97E8-30C0EBB4764D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5A9441-8B4F-415D-97E8-30C0EBB4764D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3214AE0-8143-4F55-B73C-1040B859854D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3214AE0-8143-4F55-B73C-1040B859854D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3214AE0-8143-4F55-B73C-1040B859854D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3214AE0-8143-4F55-B73C-1040B859854D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D1CA19-8D11-4AF7-B12B-FE779FA5DDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D1CA19-8D11-4AF7-B12B-FE779FA5DDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D1CA19-8D11-4AF7-B12B-FE779FA5DDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D1CA19-8D11-4AF7-B12B-FE779FA5DDFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
