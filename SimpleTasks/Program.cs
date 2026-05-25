@@ -1,8 +1,12 @@
-﻿using System;
+﻿//#define FACTORIAL
+#define POWER
+//#define 
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace SimpleTasks
 {
@@ -10,20 +14,21 @@ namespace SimpleTasks
     {
         static void Main(string[] args)
         {
-            int a = 2;
-            int b = 2;
-            int c = 0;
 
-            Console.WriteLine($" {a}^{b} = {c}");
-
-            while()
+#if FACTORIAL
+            Console.WriteLine("Factoria:");
+            Console.WriteLine("Введите число для вычисления Факториала: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            BigInteger f = 1;   //Класс BigInteger реализует длинную арифметику
+            for (int i = 1; i <= n; i++)
             {
-                Console.Write(a * b = c);
-                c++;
+                f *= i;
+                Console.WriteLine($"{i}! = {f}");
             }
+#endif //FACTORIAL
 
-            Console.WriteLine($" {a}^{b} = {c}");
-            Console.WriteLine("Done mission!");
+
+
         }
     }
 }
