@@ -1,6 +1,6 @@
 ﻿//#define FACTORIAL
-#define POWER
-#define FIBONACHI
+//#define POWER
+//#define FIBONACHI
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,7 +27,34 @@ namespace SimpleTasks
             }
 #endif //FACTORIAL
 
+#if POWER
+            Console.Write("Введите основание степени: ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите показатель степени: ");
+            int n = Convert.ToInt32(Console.ReadLine());
 
+            Console.Write($"{a} ^ {n} = ");
+            if (n < 0)
+            {
+                n = -n;
+                a = 1 / a;
+            }
+            double N = 1;
+            for (int i = 0; i < n; i++)
+            {
+                N *= a;
+            }
+            Console.WriteLine(N);
+#endif //POWER
+
+#if FIBONACHI
+            //Console.Write("Введите предел: ");
+            Console.Write("Введите количество членов ряда: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (BigInteger i = 0, a = 0, b = 1, c = a + b; i++ < n; c = (a = b) + (b = c))
+                Console.Write(a + (i % 10 == 0 ? "\n" : "\t"));
+            Console.WriteLine();
+#endif //FIBONACHI
 
         }
     }
