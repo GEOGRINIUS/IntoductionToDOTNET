@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geomet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAME", "GAME\GAME.csproj", "{CD0E1E43-FED9-4868-B176-526EEA57D026}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{BC431C90-21D4-4E3D-96BF-E866CF1F6A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CD0E1E43-FED9-4868-B176-526EEA57D026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD0E1E43-FED9-4868-B176-526EEA57D026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD0E1E43-FED9-4868-B176-526EEA57D026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC431C90-21D4-4E3D-96BF-E866CF1F6A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC431C90-21D4-4E3D-96BF-E866CF1F6A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC431C90-21D4-4E3D-96BF-E866CF1F6A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC431C90-21D4-4E3D-96BF-E866CF1F6A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
