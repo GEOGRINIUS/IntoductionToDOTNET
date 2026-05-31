@@ -11,15 +11,18 @@ namespace Geometry
     {
         static void Main(string[] args)
         {
-            int a = 32;
-            int b = 32;
+            Console.WriteLine("Введите размер кубика: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
 
-            Console.BackgroundColor = ConsoleColor.Blue;
-            Console.WriteLine(".");
-            Console.CursorLeft = a;
-            Console.CursorTop  = b;
-            Console.Beep(32, 32);
-            Console.ResetColor();
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    Console.WriteLine("* ");
+                }
+                Console.WriteLine( );
+            }
 
         }
     }
